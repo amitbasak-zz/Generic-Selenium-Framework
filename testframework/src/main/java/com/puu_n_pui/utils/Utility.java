@@ -15,7 +15,6 @@ public class Utility {
 			System.setProperty("webdriver.gecko.driver", "../../DRIVERS/geckodriver.exe");
 			driver = new FirefoxDriver();
 		}
-		System.out.println("hello buddy");
 		return driver;
 	}
 
